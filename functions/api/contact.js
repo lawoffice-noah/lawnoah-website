@@ -30,7 +30,7 @@ export async function onRequestPost(context) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        from: 'Law Office Noah <no-reply@lawnoah.com>',
+        from: 'Law Office Noah <info@lawnoah.com>',
         to: 'info@lawnoah.com',
         reply_to: email,
         subject,
