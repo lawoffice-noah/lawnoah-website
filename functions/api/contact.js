@@ -1,6 +1,10 @@
 export async function onRequestPost(context) {
   try {
     const { request, env } = context;
+    console.log("KEY VALUE:", env.RESEND_API_KEY);
+    if (!env.RESEND_API_KEY) {
+  throw new Error("RESEND_API_KEY is missing");
+}
     const data = await request.json();
 
     const name = String(data.name || '').trim();
