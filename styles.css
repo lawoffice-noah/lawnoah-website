@@ -146,3 +146,101 @@ html[lang="en"] .consult-cta h2{
   .credibility-strip>div{min-height:auto;padding:24px;border-right:0;border-bottom:1px solid var(--line)}
   .credibility-strip>div:last-child{border-bottom:0}
 }
+
+
+/* v14.2 hero separation + boutique charcoal refinement */
+:root{
+  --charcoal:#242126;
+  --charcoal-soft:#302c31;
+  --burgundy:#721a35;
+  --line:#e6e2e4;
+}
+body,
+button,input,select,textarea{
+  font-family:"Malgun Gothic","Apple SD Gothic Neo","Segoe UI",Arial,sans-serif;
+}
+h1,h2,h3,
+.hero-copy h1,
+.subhero h1,
+.profile-intro h1,
+.profile-principle blockquote,
+.attorney-home-copy .lead,
+.consult-cta h2{
+  font-family:"Malgun Gothic","Apple SD Gothic Neo","Segoe UI",Arial,sans-serif;
+  letter-spacing:-.055em;
+}
+.hero-home{
+  min-height:790px;
+  align-items:center;
+  padding-top:82px;
+  padding-bottom:82px;
+}
+.hero-copy{
+  width:min(600px,46vw);
+}
+.hero-copy.reveal{
+  transform:translateY(-54px);
+}
+.hero-copy.reveal.show{
+  transform:translateY(-82px);
+}
+.hero-copy h1{
+  font-size:clamp(44px,4.45vw,68px);
+  font-weight:700;
+  line-height:1.16;
+  letter-spacing:-.06em;
+}
+.hero-copy p{
+  max-width:520px;
+  margin-top:26px;
+  color:#3b373a;
+}
+.hero-actions{margin-top:30px}
+.credibility-strip{
+  background:var(--charcoal);
+  color:#fff;
+  border-top:4px solid var(--burgundy);
+  border-bottom:0;
+  box-shadow:0 14px 30px rgba(25,21,24,.08);
+}
+.credibility-strip>div{
+  min-height:138px;
+  border-right:1px solid #454047;
+  padding:30px 34px;
+}
+.credibility-strip>div:last-child{border-right:0}
+.credibility-strip strong{
+  color:#c66e89;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:19px;
+  margin-bottom:18px;
+}
+.credibility-strip span{
+  color:#f7f4f5;
+  font-size:14px;
+  font-weight:700;
+  line-height:1.55;
+}
+.section-heading h2,.attorney-home-copy h2,.profile-story h2{
+  color:var(--charcoal);
+}
+.method-section{
+  background:var(--charcoal);
+}
+.footer{
+  background:#181619;
+}
+@media(max-width:820px){
+  .hero-home{min-height:690px;padding-top:68px;padding-bottom:68px}
+  .hero-copy.reveal{transform:translateY(-18px)}
+  .hero-copy.reveal.show{transform:translateY(-34px)}
+  .hero-copy h1{font-size:40px}
+  .credibility-strip>div{min-height:122px}
+}
+@media(max-width:520px){
+  .hero-home{min-height:660px;padding-top:62px;padding-bottom:54px}
+  .hero-copy.reveal,.hero-copy.reveal.show{transform:translateY(-18px)}
+  .hero-copy h1{font-size:36px;line-height:1.18}
+  .credibility-strip{border-top-width:3px}
+  .credibility-strip>div{background:var(--charcoal);min-height:auto;padding:24px}
+}
