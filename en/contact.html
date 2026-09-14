@@ -4,21 +4,24 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>Contact | Law Office Noah</title>
-  
-  <meta name="description" content="Contact Law Office Noah and find our location." />
-  <link rel="canonical" href="https://lawnoah.com/en/contact.html" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Contact | Law Office Noah" />
-  <meta property="og:description" content="Contact Law Office Noah and find our location." />
-  <meta property="og:image" content="../assets/hero-profile.jpg" />
-  <meta property="og:site_name" content="Law Office Noah" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="theme-color" content="#f7f3ee" />
+  <meta name="description" content="Contact Law Office Noah for Korean legal counsel. International inquiries regarding commercial contracts, transactions, and disputes are welcome."/>
+  <link rel="canonical" href="https://lawnoah.com/en/contact.html"/>
+  <link rel="alternate" hreflang="ko-KR" href="https://lawnoah.com/contact.html"/>
+  <link rel="alternate" hreflang="en" href="https://lawnoah.com/en/contact.html"/>
+  <link rel="alternate" hreflang="x-default" href="https://lawnoah.com/"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Contact | Law Office Noah"/>
+  <meta property="og:description" content="Contact Law Office Noah for Korean legal counsel. International inquiries regarding commercial contracts, transactions, and disputes are welcome."/>
+  <meta property="og:image" content="https://lawnoah.com/assets/hero-profile.jpg"/>
+  <meta property="og:site_name" content="Law Office Noah"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="theme-color" content="#f4efe8"/>
   <link rel="icon" href="../assets/logo-burgundy-stacked.png"/>
   <link rel="stylesheet" href="../styles.css"/>
 </head>
-<body>
-<aside class="sidebar">
+<body data-page="contact.html">
+
+<aside class="sidebar" aria-label="Primary navigation">
   <a class="brand" href="index.html">NOAH<span>LAW OFFICE</span></a>
   <nav>
     <a href="index.html">HOME</a>
@@ -27,15 +30,23 @@
     <a href="note.html">INSIGHTS</a>
     <a href="contact.html">CONTACT</a>
   </nav>
-  <div class="side-bottom"><div><a href="../contact.html">KR</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="contact.html">EN</a></div><small>© LAW OFFICE NOAH</small></div>
+  <div class="side-bottom"><div><a href="../contact.html">KR</a><span>/</span><a href="contact.html" aria-current="page">EN</a></div><small>© LAW OFFICE NOAH</small></div>
 </aside>
-<header class="mobile-header"><a class="brand" href="index.html">NOAH<span>LAW OFFICE</span></a><nav><a href="practice.html">Practice</a><a href="attorney.html">Attorney</a><a href="contact.html">Contact</a></nav></header>
+<header class="mobile-header">
+  <a class="brand mobile-brand-en" href="index.html">NOAH<span>LAW OFFICE</span></a>
+  <button class="mobile-menu-button" type="button" aria-expanded="false" aria-controls="mobileNav">MENU</button>
+  <nav id="mobileNav" class="mobile-nav" aria-label="Mobile navigation">
+    <a href="practice.html">Practice</a><a href="attorney.html">Attorney</a><a href="contact.html">Contact</a><a href="../contact.html">KR</a>
+  </nav>
+</header>
 <div class="page">
-<main><section class="subhero reveal"><span>CONTACT</span><h1>Contact</h1><p>Consultations are available by appointment.</p></section><section class="contact-wrap"><form class="contact-form reveal" id="contactForm"><label>Name<input type="text" name="name" placeholder="Your name" required></label><label>Email<input type="email" name="email" placeholder="Your email address" required></label><label>Message<textarea name="message" rows="7" placeholder="Briefly describe your matter" required></textarea></label><button type="submit">Send Inquiry</button><p id="formStatus">Your message will be sent to Law Office Noah.</p></form><aside class="map-side reveal"><h2>Location</h2><p>401, 21-9 Hyeonam-ro, Yeoju-si, Gyeonggi-do, Korea</p><p>Near Yeoju Branch Court</p><a href="https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%97%AC%EC%A3%BC%EC%8B%9C%20%ED%98%84%EC%95%94%EB%A1%9C%2021-9%20401%ED%98%B8" target="_blank" rel="noopener">Open Naver Map</a><div class="map-frame"><iframe title="Law Office Noah Google Map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%97%AC%EC%A3%BC%EC%8B%9C%20%ED%98%84%EC%95%94%EB%A1%9C%2021-9%20401%ED%98%B8&output=embed"></iframe></div></aside></section></main>
+
+<main><section class="subhero contact-subhero"><span class="eyebrow">CONTACT</span><h1>Send an Inquiry</h1><p>Consultations are by appointment.<br>Please provide enough information for an initial conflict and scope review.</p></section><section class="contact-wrap"><form class="contact-form reveal" id="contactForm" novalidate><input type="text" name="website" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true"><input type="hidden" name="startedAt" id="startedAt"><input type="hidden" name="lang" value="en"><div class="form-row"><label>Full name <em>*</em><input type="text" name="name" autocomplete="name" maxlength="100" required></label><label>Email <em>*</em><input type="email" name="email" autocomplete="email" maxlength="254" required></label></div><div class="form-row"><label>Company / Organization<input type="text" name="organization" maxlength="150" autocomplete="organization"></label><label>Position<input type="text" name="position" maxlength="100"></label></div><label>Country<input type="text" name="country" maxlength="100" autocomplete="country-name"></label><label>Type of matter <em>*</em><select name="matter" required><option value="">Please select</option><option>Commercial contract</option><option>Corporate / transaction</option><option>Civil / commercial dispute</option><option>Real estate</option><option>Family / inheritance</option><option>Criminal matter</option><option>Employment</option><option>Administrative / regulatory</option><option>Other</option></select></label><label>Brief description <em>*</em><textarea name="message" rows="8" maxlength="3000" placeholder="Please briefly identify the parties, the transaction or dispute, the relevant jurisdiction, and why Korean legal assistance is required. Do not include unnecessary sensitive information." required></textarea><small class="field-help"><span id="messageCount">0</span>/3000</small></label><div class="privacy-alert"><strong>Before sending documents</strong><p>This form is not a secure document portal. Before engagement is confirmed, please do not send IDs, bank credentials, medical records, passwords, or unnecessary confidential documents.</p></div><div class="consent-box"><label class="check-label"><input type="checkbox" name="consentPrivacy" required><span><b>[Required]</b> I agree to the collection and use of my personal information.</span></label><details><summary>Collection and use notice</summary><div><p><b>Data</b> Name, email, matter type, inquiry content, and optional company/position/country information.</p><p><b>Purpose</b> Reviewing and responding to the inquiry and considering potential engagement.</p><p><b>Retention</b> One year from the final response, unless the matter proceeds to engagement or a different legal basis applies.</p></div></details><label class="check-label"><input type="checkbox" name="consentTransfer" required><span><b>[Required]</b> I agree to the cross-border processing of my personal information.</span></label><details><summary>Cross-border processing notice</summary><div><p><b>Resend (Plus Five Five, Inc., support@resend.com)</b> — United States — email delivery and delivery logs.</p><p><b>Cloudflare, Inc. (dpo@cloudflare.com)</b> — United States, EEA and other service locations — hosting, security, serverless request processing and anti-abuse services.</p><p>Because this web form relies on these services, the form cannot be submitted without this consent.</p></div></details></div><div id="turnstileMount" class="turnstile-mount" data-sitekey="REPLACE_WITH_TURNSTILE_SITE_KEY" aria-label="Anti-spam verification"></div><button class="button button-dark form-submit" type="submit">Send Inquiry</button><p id="formStatus" class="form-status" role="status" aria-live="polite">Your inquiry will be delivered to the firm's main email address.</p></form><aside class="contact-side reveal"><div><span class="eyebrow">VISIT</span><h2>Office</h2><p>401, 21-9 Hyeonam-ro<br>Yeoju-si, Gyeonggi-do<br>Republic of Korea 12638</p><a class="text-link" href="https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%97%AC%EC%A3%BC%EC%8B%9C%20%ED%98%84%EC%95%94%EB%A1%9C%2021-9%20401%ED%98%B8" target="_blank" rel="noopener noreferrer">View map →</a></div><div class="contact-direct"><span class="eyebrow">EMAIL</span><a href="mailto:info@lawnoah.com">info@lawnoah.com</a><p>Consultation by appointment.</p></div><div class="international-note"><span class="eyebrow">INTERNATIONAL INQUIRIES</span><p>If you are contacting us on behalf of a company or law firm, please include your organization, position, country, the counterparty, and the governing law if known.</p></div></aside></section></main>
+
 <footer class="footer">
-  <div><strong>LAW OFFICE NOAH</strong><p>Boutique law office in Yeoju</p></div>
-  <div><p><b>Attorney</b> Kim, Bo-Gyeong</p><p><b>Business Reg. No.</b> 558-24-02459</p><p><b>Address</b> 401, 21-9 Hyeonam-ro, Yeoju-si, Gyeonggi-do, Korea</p></div>
-  <div><p><b>EMAIL</b> info@lawnoah.com</p><p><b>Consultation</b> By appointment</p></div>
+  <div class="footer-brand"><strong>LAW OFFICE NOAH</strong><p>Yeoju, Republic of Korea</p><p class="footer-tagline">Clarity before action.</p></div>
+  <div><p><b>Managing Attorney</b> Bo-Gyeong Kim</p><p><b>Business Reg. No.</b> 558-24-02459</p><p><b>Address</b> 401, 21-9 Hyeonam-ro, Yeoju-si, Gyeonggi-do, Korea</p></div>
+  <div><p><b>EMAIL</b> info@lawnoah.com</p><p><b>Consultation</b> By appointment</p><p><a href="contact.html">Contact →</a></p></div>
   <div class="footer-links"><a href="privacy.html">Privacy Policy</a><a href="disclaimer.html">Disclaimer</a></div>
 </footer>
 </div>
