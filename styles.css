@@ -364,3 +364,79 @@ body{background:var(--bg);color:var(--ink)}
   .hero-home:before{background:linear-gradient(90deg,rgba(236,234,236,.95) 0%,rgba(236,234,236,.84) 58%,rgba(236,234,236,.24) 100%)!important}
   .hero-home:after{display:none}
 }
+
+/* v14.4 burgundy identity + lighter navigation */
+:root{
+  --sidebar:220px;
+  --burgundy:#6b1835;
+  --deep:#431020;
+  --rose:#d7a8b8;
+  --nav-stone:#eee9ec;
+  --nav-line:#d7cbd1;
+}
+
+/* Lighter boutique sidebar: burgundy is the identity, charcoal becomes supporting color */
+.sidebar{
+  background:var(--nav-stone)!important;
+  border-right:1px solid var(--nav-line)!important;
+  box-shadow:none!important;
+  padding-left:30px;
+  padding-right:30px;
+}
+.sidebar .brand-kr{color:var(--burgundy)!important}
+.sidebar .brand-kr span{color:#2a2428!important}
+.sidebar .brand-kr small{color:#7d6f76!important}
+.sidebar .brand:not(.brand-kr){color:var(--burgundy)!important}
+.sidebar .brand:not(.brand-kr) span{color:#2a2428!important}
+.sidebar nav a{color:#494147!important}
+.sidebar nav a:hover,.sidebar nav a.active{color:var(--burgundy)!important}
+.sidebar nav a:after{background:var(--burgundy)!important;height:2px}
+.side-bottom{color:#7b7076!important}
+.side-bottom>div{border-top-color:var(--nav-line)!important}
+.side-bottom a[aria-current="page"]{color:var(--burgundy)!important}
+
+/* Make the LAWNOAH burgundy unmistakable directly under the hero */
+.credibility-strip{
+  background:var(--burgundy)!important;
+  color:#fff!important;
+  border-top:0!important;
+  border-bottom:0!important;
+}
+.credibility-strip>div{
+  border-right:1px solid rgba(255,255,255,.20)!important;
+}
+.credibility-strip strong{
+  color:#f1c6d3!important;
+}
+.credibility-strip span{
+  color:#fff!important;
+}
+
+/* Burgundy accents recur through the page, while charcoal is kept for one contrast section only */
+.button-dark{background:var(--burgundy)!important}
+.button-dark:hover{background:var(--deep)!important}
+.eyebrow{color:var(--burgundy)!important}
+.practice-preview-grid span,.practice-card>span,.insight-links small,.channel-grid span{color:var(--burgundy)!important}
+.compact-credentials li:before{color:var(--burgundy)!important}
+.profile-facts{border-top-color:var(--burgundy)!important}
+.consult-cta{background:var(--burgundy)!important}
+.method-section{background:#292429!important}
+.footer{background:#1c181b!important}
+
+/* Mobile keeps the light navigation and visible burgundy identity */
+.mobile-header{
+  background:rgba(238,233,236,.98)!important;
+  border-bottom:1px solid var(--nav-line)!important;
+}
+.mobile-header .brand-kr{color:var(--burgundy)!important}
+.mobile-header .brand-kr span{color:#2a2428!important}
+.mobile-header .mobile-menu-button{color:var(--burgundy)!important}
+.mobile-nav{
+  background:var(--nav-stone)!important;
+  border-bottom-color:var(--nav-line)!important;
+}
+.mobile-nav a{color:#41393f!important}
+
+@media(max-width:820px){
+  :root{--sidebar:0px}
+}
