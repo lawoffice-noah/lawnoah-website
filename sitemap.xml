@@ -13,6 +13,12 @@
     <loc>https://lawnoah.com/disclaimer.html</loc>
   </url>
   <url>
+    <loc>https://lawnoah.com/practice.html</loc>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/privacy.html</loc>
+  </url>
+  <url>
     <loc>https://lawnoah.com/en/</loc>
   </url>
   <url>
@@ -25,20 +31,66 @@
     <loc>https://lawnoah.com/en/disclaimer.html</loc>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/2026-ai-basic-act</loc>
-    <lastmod>2026-09-21</lastmod>
+    <loc>https://lawnoah.com/en/practice.html</loc>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/2026-child-support-advance-amendments</loc>
-    <lastmod>2026-09-17</lastmod>
+    <loc>https://lawnoah.com/en/privacy.html</loc>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/2026-ecommerce-consumer-protection-amendments</loc>
-    <lastmod>2026-09-23</lastmod>
+    <loc>https://lawnoah.com/en/insights/2026-dark-pattern-interface-guideline</loc>
+    <lastmod>2026-11-26</lastmod>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/2026-inheritance-reserved-share-amendments</loc>
-    <lastmod>2026-09-17</lastmod>
+    <loc>https://lawnoah.com/en/insights/2026-2027-labor-standards-rest-annual-leave</loc>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/insights/2027-vacant-buildings-special-act</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/insights/2027-fair-trade-evidence-reinvestigation</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/insights/2027-game-industry-domestic-agent-user-protection</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/insights/2026-origin-labeling-platform-notice</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/insights/2026-voice-phishing-virtual-asset-refund</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/insights/2027-large-retail-payment-deadlines</loc>
+    <lastmod>2026-11-12</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/insights/2026-subcontract-energy-indexation-amendments</loc>
+    <lastmod>2026-11-12</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/insights/trade-secret-brokerage-hacking-2027</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/insights/2026-treasury-shares-amendments</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/insights/2026-equal-employment-amendments</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/insights/2026-public-hygiene-lodging-platform-amendments</loc>
+    <lastmod>2026-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/insights/2026-occupational-safety-health-amendments</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
     <loc>https://lawnoah.com/en/insights/2026-jeonse-fraud-minimum-guarantee</loc>
@@ -49,60 +101,124 @@
     <lastmod>2026-09-28</lastmod>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/2026-occupational-safety-health-amendments</loc>
-    <lastmod>2026-11-10</lastmod>
+    <loc>https://lawnoah.com/en/insights/2026-ecommerce-consumer-protection-amendments</loc>
+    <lastmod>2026-09-23</lastmod>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/2026-pipa-amendments</loc>
-    <lastmod>2026-09-16</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/en/insights/2026-school-violence-disabled-students</loc>
-    <lastmod>2026-09-17</lastmod>
+    <loc>https://lawnoah.com/en/insights/2026-ai-basic-act</loc>
+    <lastmod>2026-09-21</lastmod>
   </url>
   <url>
     <loc>https://lawnoah.com/en/insights/2026-stalking-field-investigation-amendments</loc>
     <lastmod>2026-09-17</lastmod>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/2026-public-hygiene-lodging-platform-amendments</loc>
+    <loc>https://lawnoah.com/en/insights/2026-school-violence-disabled-students</loc>
+    <lastmod>2026-09-17</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/insights/2026-inheritance-reserved-share-amendments</loc>
+    <lastmod>2026-09-17</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/insights/2026-child-support-advance-amendments</loc>
+    <lastmod>2026-09-17</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/insights/2026-pipa-amendments</loc>
+    <lastmod>2026-09-16</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/insights/2026-dark-pattern-interface-guideline</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/insights/2026-2027-labor-standards-rest-annual-leave</loc>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/insights/2027-vacant-buildings-special-act</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/insights/2027-fair-trade-evidence-reinvestigation</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/insights/2027-game-industry-domestic-agent-user-protection</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/insights/2026-origin-labeling-platform-notice</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/insights/2026-voice-phishing-virtual-asset-refund</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/insights/2027-large-retail-payment-deadlines</loc>
+    <lastmod>2026-11-12</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/insights/2026-subcontract-energy-indexation-amendments</loc>
+    <lastmod>2026-11-12</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/insights/trade-secret-brokerage-hacking-2027</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/insights/2026-treasury-shares-amendments</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/insights/2026-equal-employment-amendments</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/insights/2026-public-hygiene-lodging-platform-amendments</loc>
     <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/2026-equal-employment-amendments</loc>
-    <lastmod>2026-11-11</lastmod>
+    <loc>https://lawnoah.com/insights/2026-occupational-safety-health-amendments</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/2026-treasury-shares-amendments</loc>
-    <lastmod>2026-11-11</lastmod>
+    <loc>https://lawnoah.com/insights/2026-jeonse-fraud-minimum-guarantee</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/trade-secret-brokerage-hacking-2027</loc>
-    <lastmod>2026-11-11</lastmod>
+    <loc>https://lawnoah.com/insights/2026-nationality-act-amendments</loc>
+    <lastmod>2026-09-28</lastmod>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/2026-subcontract-energy-indexation-amendments</loc>
-    <lastmod>2026-11-12</lastmod>
+    <loc>https://lawnoah.com/insights/2026-ecommerce-consumer-protection-amendments</loc>
+    <lastmod>2026-09-23</lastmod>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/2027-large-retail-payment-deadlines</loc>
-    <lastmod>2026-11-12</lastmod>
+    <loc>https://lawnoah.com/insights/2026-ai-basic-act</loc>
+    <lastmod>2026-09-21</lastmod>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/2026-voice-phishing-virtual-asset-refund</loc>
-    <lastmod>2026-11-13</lastmod>
+    <loc>https://lawnoah.com/insights/2026-stalking-field-investigation-amendments</loc>
+    <lastmod>2026-09-17</lastmod>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/2026-origin-labeling-platform-notice</loc>
-    <lastmod>2026-11-13</lastmod>
+    <loc>https://lawnoah.com/insights/2026-school-violence-disabled-students</loc>
+    <lastmod>2026-09-17</lastmod>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/2027-game-industry-domestic-agent-user-protection</loc>
-    <lastmod>2026-11-16</lastmod>
+    <loc>https://lawnoah.com/insights/2026-inheritance-reserved-share-amendments</loc>
+    <lastmod>2026-09-17</lastmod>
   </url>
   <url>
-    <loc>https://lawnoah.com/en/insights/2027-fair-trade-evidence-reinvestigation</loc>
-    <lastmod>2026-11-16</lastmod>
+    <loc>https://lawnoah.com/insights/2026-child-support-advance-amendments</loc>
+    <lastmod>2026-09-17</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/insights/2026-pipa-amendments</loc>
+    <lastmod>2026-09-16</lastmod>
   </url>
   <url>
     <loc>https://lawnoah.com/en/insights/topics/corporate</loc>
@@ -115,99 +231,6 @@
   </url>
   <url>
     <loc>https://lawnoah.com/en/insights/topics/technology</loc>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/en/note</loc>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/en/note-page-2</loc>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/en/note-page-3</loc>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/en/note-page-4</loc>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/en/note-page-5</loc>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/en/practice.html</loc>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/en/privacy.html</loc>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2026-ai-basic-act</loc>
-    <lastmod>2026-09-21</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2026-child-support-advance-amendments</loc>
-    <lastmod>2026-09-17</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2026-ecommerce-consumer-protection-amendments</loc>
-    <lastmod>2026-09-23</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2026-inheritance-reserved-share-amendments</loc>
-    <lastmod>2026-09-17</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2026-jeonse-fraud-minimum-guarantee</loc>
-    <lastmod>2026-11-10</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2026-nationality-act-amendments</loc>
-    <lastmod>2026-09-28</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2026-occupational-safety-health-amendments</loc>
-    <lastmod>2026-11-10</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2026-pipa-amendments</loc>
-    <lastmod>2026-09-16</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2026-school-violence-disabled-students</loc>
-    <lastmod>2026-09-17</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2026-stalking-field-investigation-amendments</loc>
-    <lastmod>2026-09-17</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2026-treasury-shares-amendments</loc>
-    <lastmod>2026-11-11</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/trade-secret-brokerage-hacking-2027</loc>
-    <lastmod>2026-11-11</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2026-subcontract-energy-indexation-amendments</loc>
-    <lastmod>2026-11-12</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2027-large-retail-payment-deadlines</loc>
-    <lastmod>2026-11-12</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2026-voice-phishing-virtual-asset-refund</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2026-origin-labeling-platform-notice</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2027-game-industry-domestic-agent-user-protection</loc>
-    <lastmod>2026-11-16</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2027-fair-trade-evidence-reinvestigation</loc>
-    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://lawnoah.com/insights/topics/corporate</loc>
@@ -237,33 +260,24 @@
     <loc>https://lawnoah.com/note-page-5</loc>
   </url>
   <url>
-    <loc>https://lawnoah.com/practice.html</loc>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/privacy.html</loc>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2027-vacant-buildings-special-act</loc>
-    <lastmod>2026-11-16</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/en/insights/2027-vacant-buildings-special-act</loc>
-    <lastmod>2026-11-16</lastmod>
-  </url>
-  <url>
     <loc>https://lawnoah.com/note-page-6</loc>
-    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/note</loc>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/note-page-2</loc>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/note-page-3</loc>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/note-page-4</loc>
+  </url>
+  <url>
+    <loc>https://lawnoah.com/en/note-page-5</loc>
   </url>
   <url>
     <loc>https://lawnoah.com/en/note-page-6</loc>
-    <lastmod>2026-11-16</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/insights/2026-2027-labor-standards-rest-annual-leave</loc>
-    <lastmod>2026-11-24</lastmod>
-  </url>
-  <url>
-    <loc>https://lawnoah.com/en/insights/2026-2027-labor-standards-rest-annual-leave</loc>
-    <lastmod>2026-11-24</lastmod>
   </url>
 </urlset>
