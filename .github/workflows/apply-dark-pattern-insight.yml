@@ -19,14 +19,25 @@ jobs:
           ref: insight-dark-pattern-guideline-20261126
           fetch-depth: 0
 
-      - name: Restore reviewed publication files
+      - name: Restore and validate reviewed publication files
         shell: bash
         run: |
           set -euo pipefail
-          cat .dark-pattern-payload/part*.b64 > /tmp/dark-pattern-payload.b64
-          base64 -d /tmp/dark-pattern-payload.b64 | xz -d > /tmp/dark-pattern-payload.tar
+          cat .dark-pattern-payload-small/part*.b64 | tr -d '\n\r ' > /tmp/dark-pattern-payload.b64
+          echo "3077f036a9e337e65f1d4932587e7440f13d6fb266e9ebf01e940e3bf69fcbd6  /tmp/dark-pattern-payload.b64" | sha256sum -c -
+          base64 -d /tmp/dark-pattern-payload.b64 > /tmp/dark-pattern-payload.xz
+          echo "008eb6d4ccb7eda3e9af8bcc7ed215c22a3aaeb5bb34fa02ab23513ab1c6f720  /tmp/dark-pattern-payload.xz" | sha256sum -c -
+          xz -dc /tmp/dark-pattern-payload.xz > /tmp/dark-pattern-payload.tar
           tar -xf /tmp/dark-pattern-payload.tar -C .
-          rm -rf .dark-pattern-payload
+
+          test -f insights/2026-dark-pattern-interface-guideline.html
+          test -f en/insights/2026-dark-pattern-interface-guideline.html
+          grep -q "23개 리포트" note.html
+          grep -q "23 reports" en/note.html
+          grep -q "13개 리포트" insights/topics/corporate.html
+          grep -q "13 reports" en/insights/topics/corporate.html
+
+          rm -rf .dark-pattern-payload .dark-pattern-payload-small
           rm -f .github/workflows/apply-dark-pattern-insight.yml
           rmdir .github/workflows 2>/dev/null || true
           rmdir .github 2>/dev/null || true
